@@ -1,6 +1,6 @@
 # hunt-the-wumpus
 
-Works with polymorphism and STL template classes. Event class is abstract, with virtual functions. Other classes are dervied from Event. 
+Works with polymorphism and STL template classes. Event class is abstract, with virtual functions. Other classes are derived from Event. 
 
 The player is an adventurer trying to kill the Wumpus, find the pot of gold, and escape. The Wumpus lives in a cave grid, with rooms and tunnels connecting them in North, East, West, South directions. The adventurer starts in an empty room, which is also where the escape rope is. Each room can be empty, or can have an event: two hazards, the gold, or the Wumpus. 
 
