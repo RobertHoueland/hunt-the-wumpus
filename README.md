@@ -39,7 +39,7 @@ There is no percept for the escape rope, the player must remember the room.
 
 Compile with make
 
-Run with ./hunt_wumpus SIZE DEBUG
+Run with ./hunt_wumpus [SIZE] [DEBUG]
 
      SIZE = Width and Height of square cave (ex: 5 gives 5x5 cave)
      
