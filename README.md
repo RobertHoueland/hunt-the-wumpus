@@ -1,4 +1,4 @@
-# hunt-the-wumpus
+# Hunt The Wumpus
 
 Works with polymorphism and STL template classes. Event class is abstract, with virtual functions. Other classes are derived from Event. 
 
