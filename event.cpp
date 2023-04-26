@@ -1,7 +1,7 @@
 #include "event.h"
 
 /* Event inherited classes use percept */
-Event::Event(){
+Event::Event() {
     percept = "";
 }
 

@@ -1,14 +1,14 @@
 #include "bats.h"
+
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-Bats::Bats(){
+Bats::Bats() {
     percept = "You hear wings flapping.";
 }
 
-/* Getter for percept */
-string Bats::get_percept(){
+string Bats::get_percept() {
     return percept;
 }

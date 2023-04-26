@@ -1,19 +1,20 @@
 #ifndef WUMPUS_H
 #define WUMPUS_H
 
-#include "event.h"
 #include <string>
+
+#include "event.h"
 
 using namespace std;
 
-/* Derived from event */
-class Wumpus : public Event{
-    private:
-        string percept;
-    public:
-        Wumpus();
+class Wumpus : public Event {
+   private:
+    string percept;
 
-        string get_percept(); 
+   public:
+    Wumpus();
+
+    string get_percept();
 };
 
 #endif
